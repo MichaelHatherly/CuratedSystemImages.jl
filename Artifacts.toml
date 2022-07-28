@@ -1,0 +1,28 @@
+[[CairoMakie]]
+arch = "x86_64"
+git-tree-sha1 = "cf3cc5a77441fbd40c26251e052a18ca61c82776"
+lazy = true
+os = "windows"
+
+    [[CairoMakie.download]]
+    sha256 = "5346055fd69a5badaf00c65c379447c41cd923c88ef8048d3061104add6f1dbf"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.1/CairoMakie-windows-latest-x64-1.7.tar.gz"
+[[CairoMakie]]
+arch = "x86_64"
+git-tree-sha1 = "3a95b5ca9849fa283530fbe29fd39ef1c4b244c7"
+lazy = true
+os = "macos"
+
+    [[CairoMakie.download]]
+    sha256 = "55c808ed6faf6e43ba42f71d2fcbd15b4d66e04341e4bbf8a1ec0f581cf9942d"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.1/CairoMakie-macOS-latest-x64-1.7.tar.gz"
+[[CairoMakie]]
+arch = "x86_64"
+git-tree-sha1 = "ea720a3c341c84a13d23b0ea11bacfe74e04509e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[CairoMakie.download]]
+    sha256 = "6e3a54775a9a0a185f2465cf3d198e1475d9d2d517533908a44be31ea66fc9b0"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.1/CairoMakie-ubuntu-latest-x64-1.7.tar.gz"
