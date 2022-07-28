@@ -1,0 +1,3 @@
+module CuratedSystemImages
+
+end # module
