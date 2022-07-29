@@ -2,3 +2,10 @@ name = "CuratedSystemImages"
 uuid = "b662ed40-beb4-4ce8-9fcc-15a7c99935d3"
 authors = ["Mike <michaelhatherly@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+SystemImageLoader = "dc30da40-fce8-4b3c-960e-234cbed6f4a5"
+
+[compat]
+SystemImageLoader = "0.4"
+julia = "1.7"
