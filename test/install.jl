@@ -1,3 +1,7 @@
 using CuratedSystemImages
+import TOML
 
-@show isdir(CuratedSystemImages.install("CairoMakie"))
+for each in collect(keys(TOML.parsefile(joinpath(@__DIR__, "..", "Artifacts.toml"))))
+    @show isdir(CuratedSystemImages.install(each))
+end
+
