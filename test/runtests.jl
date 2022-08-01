@@ -10,8 +10,8 @@ using TOML
         @test isfile(config.image)
 
         depot = join(insert!(copy(Base.DEPOT_PATH), 2, config.depot), Sys.iswindows() ? ";" : ":")
-        cmd = `$(Base.julia_cmd()) -J $(config.image) -e 'isdefined(Main, Symbol(ARGS[1])) || exit(1)' -- $image`
-        @test success(addenv(cmd, "JULIA_DEPOT_PATH" => depot))
+        cmd = `$(Base.julia_cmd()) -J $(config.image) -e 'print(getfield(Main, Symbol(ARGS[1])))' -- $image`
+        @test strip(readchomp(addenv(cmd, "JULIA_DEPOT_PATH" => depot))) == image
     end
 end
 
