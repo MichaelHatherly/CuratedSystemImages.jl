@@ -2,4 +2,5 @@
 
 @ArtifactInstaller(
     artifact"CairoMakie",
+    artifact"DataFrames",
 )
