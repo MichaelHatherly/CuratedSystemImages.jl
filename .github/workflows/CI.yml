@@ -31,7 +31,7 @@ jobs:
           path: ~/.julia
           key: ${{ runner.os }}-${{ hashFiles('**/Project.toml') }}-${{ hashFiles('**/Artifacts.toml') }}
           restore-keys: |
-            ${{ runner.os }}-
+            ${{ runner.os }}-${{ hashFiles('**/Project.toml') }}-${{ hashFiles('**/Artifacts.toml') }}
 
       - uses: julia-actions/setup-julia@v1
         with:
@@ -64,7 +64,7 @@ jobs:
           path: ~/.julia
           key: ${{ runner.os }}-${{ hashFiles('**/Project.toml') }}-${{ hashFiles('**/Artifacts.toml') }}
           restore-keys: |
-            ${{ runner.os }}-
+            ${{ runner.os }}-${{ hashFiles('**/Project.toml') }}-${{ hashFiles('**/Artifacts.toml') }}
 
       - uses: julia-actions/setup-julia@v1
         with:
