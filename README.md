@@ -35,3 +35,11 @@ Currently the following system image bundles are provided:
   
 Requests for additional images can be made to [`curated-system-images`](https://github.com/MichaelHatherly/curated-system-images)
 repo where the manifests and build scripts are located for the above images.
+
+## How does it work?
+
+We use the [`SystemImageLoader.jl`](https://github.com/MichaelHatherly/SystemImageLoader.jl)
+package to define an installer and loader for the lazy Julia artifacts that contain
+the system image bundles. Installing a particular bundle sets up a `juliaup` channel
+that points `SystemImageLoader` at the right system image file and associated Julia depot
+folder containing the artifacts required by the chosen system image.
