@@ -47,4 +47,6 @@ jobs:
             This pull request updates the `Artifacts.toml` file to the latest artifact versions.
           branch: bot/update/${{ github.ref }}
           delete-branch: true
-          add-paths: 'Artifacts.toml'
+          add-paths: |
+            Artifacts.toml
+            src/install.jl
