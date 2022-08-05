@@ -3,4 +3,5 @@
 @ArtifactInstaller(
     artifact"CairoMakie",
     artifact"DataFrames",
+    artifact"JuliaSyntax",
 )

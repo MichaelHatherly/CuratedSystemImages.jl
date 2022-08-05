@@ -1,57 +1,86 @@
 [[CairoMakie]]
 arch = "x86_64"
-git-tree-sha1 = "55366b2553d2051232356dc4ac378294f2daa0fa"
+git-tree-sha1 = "d93df1e6827d889dab493acc9c3adffcb9ec840e"
 lazy = true
 os = "windows"
 
     [[CairoMakie.download]]
-    sha256 = "24f39a6ea4c75f2a1745279e038db18485d598f6c7606a034bb60699fb52e40e"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/CairoMakie-windows-latest-x64-1.7.tar.gz"
+    sha256 = "db85f7caae5b05a1cf151b5a4d6472fdb6f1c19a01f1b3f6e0e57a698bcc6b86"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/CairoMakie-windows-latest-x64-1.7.tar.gz"
 [[CairoMakie]]
 arch = "x86_64"
-git-tree-sha1 = "a15ee1f31cd970621fbe73a9a9824489d66717b5"
+git-tree-sha1 = "5c78ae73c89134b49f0c8753128d8b881db6f4f6"
 lazy = true
 os = "macos"
 
     [[CairoMakie.download]]
-    sha256 = "4cf9ab321e2b2d8d355c8583536d3de3ff81976f86086f32813e086dd1f14d48"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/CairoMakie-macOS-latest-x64-1.7.tar.gz"
+    sha256 = "22b78b25f7851bd3037fff4349dc3158ae8542172b28b6ccf18dd663611afb71"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/CairoMakie-macOS-latest-x64-1.7.tar.gz"
 [[CairoMakie]]
 arch = "x86_64"
-git-tree-sha1 = "02252791ecb6c1279b4e2f39645138f9b9136d54"
+git-tree-sha1 = "8a1206381b8e6889ebee0688fe4c5f00606c1a98"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[CairoMakie.download]]
-    sha256 = "4ec7c42237cf2bc538b83454afa467bdb9746c07bc1b88cae47082952e247c2e"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/CairoMakie-ubuntu-latest-x64-1.7.tar.gz"
+    sha256 = "bb33a930574fb7fe70e86122d089f53787e8f389407ab5de78ef3a97b235de4c"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/CairoMakie-ubuntu-latest-x64-1.7.tar.gz"
 
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "180234eef5c928359d23e4036cff8cf769990110"
+git-tree-sha1 = "e307744a9a1166b1ded1a3c5ee921603c3de2c9d"
 lazy = true
 os = "windows"
 
     [[DataFrames.download]]
-    sha256 = "952491cea3e64ea605c27aaf9267adb2fd0a05db3bd778ecc54755ed408309e2"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/DataFrames-windows-latest-x64-1.7.tar.gz"
+    sha256 = "0933a21718f08434d75caaaa07f9e48c164a15f3493c95fe43ecf04858885dc3"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/DataFrames-windows-latest-x64-1.7.tar.gz"
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "6cfee6ab8c4ca762cdc0311793ea185bea59fa9a"
+git-tree-sha1 = "ff86517df95137d2c645db5769cb694dcd8c3d9d"
 lazy = true
 os = "macos"
 
     [[DataFrames.download]]
-    sha256 = "2b903ab7124f36ca58ab0945e16255314ea96eadbd6b529530b7ce971063400f"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/DataFrames-macOS-latest-x64-1.7.tar.gz"
+    sha256 = "04432f339832cc511a8aae2df9eefcffccf449c1258f9b2927960e5c09e320d1"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/DataFrames-macOS-latest-x64-1.7.tar.gz"
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "29ab45abc59cfc9f9886c52110b0901164b0bbf6"
+git-tree-sha1 = "8b8177a5ad41084fab58b705140614836a569457"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[DataFrames.download]]
-    sha256 = "ca92fb8994a01d95c2429431be09fbf13fe76eedf685fe8418ad9585b5078c03"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.2/DataFrames-ubuntu-latest-x64-1.7.tar.gz"
+    sha256 = "669b67ae0864914c8000fc35720a40969342cb34ef799a9e79cba7981c6db666"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/DataFrames-ubuntu-latest-x64-1.7.tar.gz"
+
+[[JuliaSyntax]]
+arch = "x86_64"
+git-tree-sha1 = "904af30e4529a3d6d3e48f3ed9b54e976559f545"
+lazy = true
+os = "windows"
+
+    [[JuliaSyntax.download]]
+    sha256 = "2aaab8198145458c3a627c2a139b131448ff0c2382fcbc5c0847286ae0c32654"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/JuliaSyntax-windows-latest-x64-1.7.tar.gz"
+[[JuliaSyntax]]
+arch = "x86_64"
+git-tree-sha1 = "413b57cbc507b82885bd52daa22a1b3c426ca4a0"
+lazy = true
+os = "macos"
+
+    [[JuliaSyntax.download]]
+    sha256 = "3d410b06917619f08c250cb3c93a0712f67a82580d3386c8762f262550e2a3b5"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/JuliaSyntax-macOS-latest-x64-1.7.tar.gz"
+[[JuliaSyntax]]
+arch = "x86_64"
+git-tree-sha1 = "48b67f837fd3bf330095657e28d84e271e80b938"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[JuliaSyntax.download]]
+    sha256 = "cea4859dee78a3738b793a73754be50b8b11c17587691918b20ff1db1b40f635"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.0.3/JuliaSyntax-ubuntu-latest-x64-1.7.tar.gz"
