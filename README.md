@@ -5,7 +5,7 @@ collections of third-party Julia packages. It requires that your `julia` install
 is managed using [`juliaup`](https://github.com/JuliaLang/juliaup).
 
 It is an unregistered package and will remain this way since no package should
-include this package in it's dependencies. To install use Julia's `Pkg` mode in
+include this package in its dependencies. To install use Julia's `Pkg` mode in
 your global project environment:
 
 ```
