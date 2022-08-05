@@ -32,6 +32,9 @@ Currently the following system image bundles are provided:
 
   - `CairoMakie`, contains the Cairo-based `Makie` backend.
   - `DataFrames`, contains the `DataFrames` and `DataFramesMeta` packages.
+  - `JuliaSyntax`, contains [`JuliaSyntax`](https://github.com/JuliaLang/JuliaSyntax.jl)
+    and uses the provided precompile scripts to reduce latency and enable `JuliaSyntax`
+    as the default parser for all code.
   
 Requests for additional images can be made to [`curated-system-images`](https://github.com/MichaelHatherly/curated-system-images)
 repo where the manifests and build scripts are located for the above images.
