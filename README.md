@@ -9,7 +9,7 @@ include this package in its dependencies. To install use Julia's `Pkg` mode in
 your global project environment:
 
 ```
-(@v1.7) pkg> add https://github.com/MichaelHatherly/CuratedSystemImages.jl
+julia> import Pkg; Pkg.add(url = "https://github.com/MichaelHatherly/CuratedSystemImages.jl")
 ```
 
 Then import the package and run the installer:
@@ -25,6 +25,47 @@ system images that you would like to install. Once installed you'll need to clos
 your `julia` REPL and return to the terminal. You can then use `juliaup status` to
 see the names of the newly installed channel names that can be used to launch
 `julia` with one of the installed system image bundles.
+
+Now exit your current Julia REPL and from the terminal run `julia` with one of the
+custom channel names that were installed in the previous steps, e.g if you installed
+a system image for `DataFrames` in Julia `1.7.3` then run
+
+```bash
+julia +1.7.3/CuratedSystemImages/DataFrames
+```
+
+If you selected to install "short names" for some channels then you'll be able to do
+
+```bash
+julia +DataFrames
+```
+
+to launch the same as the above.
+
+### Notes
+
+#### Default channels
+
+Do not set any of the custom channels as the `juliaup` default channel. This will
+result in an infinite loop where the default channel attempts to call itself. This
+may cause your system to hang.
+
+#### `startup.jl` and latency
+
+Please note that if you are importing any packages in your `.julia/config/startup.jl`
+that happen to use different versions of packages included in the system image that
+you launch then you will likely encounter some amount of startup latency. Running with
+`--startup-file=no` will mitigate this latency.
+
+#### Installing packages when using a custom system image
+
+It is not advised to install additional packages into the named environment that the
+system image launches with by default, e.g. `@DataFrames` for an image called `DataFrames`.
+If you need to install extra packages then ensure that you use `--project=` to start a
+custom project environment. It will still have access to the packages installed in the
+custom system image. Ensure that you install extra packages using `add --preserve=all`
+rather than the default behaviour which may upgrade dependencies to versions which are
+not included in the system image which may cause the image to load incorrectly or not at all.
 
 ## Available Images
 
