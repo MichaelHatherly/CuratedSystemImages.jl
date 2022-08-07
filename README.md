@@ -32,9 +32,9 @@ your `julia` REPL and return to the terminal. You can then use `juliaup status` 
 see the names of the newly installed channel names that can be used to launch
 `julia` with one of the installed system image bundles.
 
-Now exit your current Julia REPL and from the terminal run `julia` with one of the
-custom channel names that were installed in the previous steps, e.g if you installed
-a system image for `DataFrames` in Julia `1.7.3` then run
+Now from the terminal run `julia` with one of the custom channel names that were
+installed in the previous steps, e.g if you installed a system image for
+`DataFrames` in Julia `1.7.3` then run
 
 ```bash
 julia +1.7.3/CuratedSystemImages/DataFrames
@@ -46,7 +46,7 @@ If you selected to install "short names" for some channels then you'll be able t
 julia +DataFrames
 ```
 
-to launch the same as the above.
+to start with the system image containing `DataFrames` instead.
 
 ### Notes
 
