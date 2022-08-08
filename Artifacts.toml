@@ -27,35 +27,6 @@ os = "linux"
     sha256 = "88478157cb43864fba6aec367e8575ca588868b7d666a4e7c9b624b0e7a00573"
     url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.3.0/AlgebraOfGraphics-ubuntu-latest-x64-1.7.tar.gz"
 
-[[CairoMakie]]
-arch = "x86_64"
-git-tree-sha1 = "c85e40f5b2fc44f538f459d9cc8e5f3e4404b4ec"
-lazy = true
-os = "windows"
-
-    [[CairoMakie.download]]
-    sha256 = "ad16c951847ddc82101bc4dad4273fa9c815af0102bcb978215a7331f0ad08a9"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.2.0/CairoMakie-windows-latest-x64-1.7.tar.gz"
-[[CairoMakie]]
-arch = "x86_64"
-git-tree-sha1 = "c9f4666333eaa70f00865027e1a5fc55d0726fb3"
-lazy = true
-os = "macos"
-
-    [[CairoMakie.download]]
-    sha256 = "ee27b0546ee9db1e0560b88db1c391a32bfdc4eaf37f3123e5c4958284112f94"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.2.0/CairoMakie-macOS-latest-x64-1.7.tar.gz"
-[[CairoMakie]]
-arch = "x86_64"
-git-tree-sha1 = "7fa2df6aadd76be0f34a8c65ecb29f85de5df458"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[CairoMakie.download]]
-    sha256 = "e94f96161b0279ea1c7ebfac4e61756d91849bfa53df2911e007590570be0815"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.2.0/CairoMakie-ubuntu-latest-x64-1.7.tar.gz"
-
 [[DataFrames]]
 arch = "x86_64"
 git-tree-sha1 = "4a9be73112d4327d7e27e6084fd6d67a08dca7b3"
