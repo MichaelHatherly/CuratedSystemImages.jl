@@ -77,7 +77,8 @@ not included in the system image which may cause the image to load incorrectly o
 
 Currently the following system image bundles are provided:
 
-  - `CairoMakie`, contains the Cairo-based `Makie` backend.
+  - `AlgebraOfGraphics`, contains the [Algebra of Graphics](https://github.com/JuliaPlots/AlgebraOfGraphics.jl)
+    plotting package along with the Cairo-based `Makie` backend, and `DataFrames`.
   - `DataFrames`, contains the `DataFrames` and `DataFramesMeta` packages.
   - `JuliaSyntax`, contains [`JuliaSyntax`](https://github.com/JuliaLang/JuliaSyntax.jl)
     and uses the provided precompile scripts to reduce latency and enable `JuliaSyntax`
