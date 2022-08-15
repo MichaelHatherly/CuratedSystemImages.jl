@@ -3,5 +3,6 @@
 @ArtifactInstaller(
     artifact"AlgebraOfGraphics",
     artifact"DataFrames",
+    artifact"JuliaFormatter",
     artifact"JuliaSyntax",
 )
