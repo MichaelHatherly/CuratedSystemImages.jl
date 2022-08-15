@@ -80,6 +80,8 @@ Currently the following system image bundles are provided:
   - `AlgebraOfGraphics`, contains the [Algebra of Graphics](https://github.com/JuliaPlots/AlgebraOfGraphics.jl)
     plotting package along with the Cairo-based `Makie` backend, and `DataFrames`.
   - `DataFrames`, contains the `DataFrames` and `DataFramesMeta` packages.
+  - `JuliaFormatter`, contains [`JuliaFormatter`](https://github.com/domluna/JuliaFormatter.jl), with latency reduced
+    enough that users may consider using it as the basis for a command line formatting script for Julia source code.
   - `JuliaSyntax`, contains [`JuliaSyntax`](https://github.com/JuliaLang/JuliaSyntax.jl)
     and uses the provided precompile scripts to reduce latency and enable `JuliaSyntax`
     as the default parser for all code.
