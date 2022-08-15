@@ -43,6 +43,7 @@ jobs:
           token: ${{  secrets.GITHUB_TOKEN }}
           commit-message: '🤖 Automatically update the Artifacts.toml'
           title: '🤖 Artifacts.toml Update'
+          labels: automerge
           body: |-
             This pull request updates the `Artifacts.toml` file to the latest artifact versions.
           branch: bot/update/${{ github.ref }}
