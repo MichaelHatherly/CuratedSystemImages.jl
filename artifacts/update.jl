@@ -27,7 +27,7 @@ images = image_names(repo)
 
 url_base = "https://github.com/MichaelHatherly/curated-system-images/releases/download"
 
-version = "1.7"
+version = "1.8"
 arch = "x64"
 
 platforms = Dict(

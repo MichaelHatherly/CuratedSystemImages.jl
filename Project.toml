@@ -8,4 +8,4 @@ SystemImageLoader = "dc30da40-fce8-4b3c-960e-234cbed6f4a5"
 
 [compat]
 SystemImageLoader = "0.8"
-julia = "1.7"
+julia = "=1.8.0"

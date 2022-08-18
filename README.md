@@ -34,10 +34,10 @@ see the names of the newly installed channel names that can be used to launch
 
 Now from the terminal run `julia` with one of the custom channel names that were
 installed in the previous steps, e.g if you installed a system image for
-`DataFrames` in Julia `1.7.3` then run
+`DataFrames` in Julia `1.8.0` then run
 
 ```bash
-julia +1.7.3/CuratedSystemImages/DataFrames
+julia +1.8.0/CuratedSystemImages/DataFrames
 ```
 
 If you selected to install "short names" for some channels then you'll be able to do
