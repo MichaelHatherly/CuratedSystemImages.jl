@@ -3,7 +3,7 @@
 > **Note**
 >
 > **Windows users** need to enable *"Long Paths"* since the bundled artifacts
-> provided by this package often have longer path names that the default limit allows.
+> provided by this package often have longer path names than the default limit allows.
 > See [this Microsoft document](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later) for the steps required to enable this feature.
 
 This Julia package provides access to several pre-built system images containing
