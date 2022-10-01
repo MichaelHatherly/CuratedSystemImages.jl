@@ -7,5 +7,5 @@ version = "0.1.0"
 SystemImageLoader = "dc30da40-fce8-4b3c-960e-234cbed6f4a5"
 
 [compat]
-SystemImageLoader = "0.9"
-julia = "=1.8.0"
+SystemImageLoader = "0.10"
+julia = "=1.8.2"
