@@ -1,115 +1,115 @@
 [[AlgebraOfGraphics]]
 arch = "x86_64"
-git-tree-sha1 = "75df69853b991898203bedc37902a946a9ac9f9f"
+git-tree-sha1 = "06c67e79b60a5c264b80a156d81cf66097906483"
 lazy = true
 os = "windows"
 
     [[AlgebraOfGraphics.download]]
-    sha256 = "6e6df9c257435c370637b72d3b7e0b45f187f1c7de380ba3d3075172b723e044"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/AlgebraOfGraphics-windows-latest-x64-1.8.tar.gz"
+    sha256 = "24f6013b44a1d122a728317a4912ebd62601ca6c54d1d11d04d90226965b372c"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/AlgebraOfGraphics-windows-latest-x64-1.8.tar.gz"
 [[AlgebraOfGraphics]]
 arch = "x86_64"
-git-tree-sha1 = "31cbf14a4b9032a1c4f1daaaf025d5e1a4ac26ba"
+git-tree-sha1 = "7454aa7c066965573e84476c7e0ec829c756a5e6"
 lazy = true
 os = "macos"
 
     [[AlgebraOfGraphics.download]]
-    sha256 = "92df4bb800753f25fc113c64d20e9e146af0118e2471466f9ca1a8e3d9357399"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/AlgebraOfGraphics-macOS-latest-x64-1.8.tar.gz"
+    sha256 = "69137a4f8920ea5927ae58ebac937ec29146f0a92e2b4adfcc1a959785bb7a83"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/AlgebraOfGraphics-macOS-latest-x64-1.8.tar.gz"
 [[AlgebraOfGraphics]]
 arch = "x86_64"
-git-tree-sha1 = "d87608cf9866bca08a4f42ed82fb2aec1d3015cf"
+git-tree-sha1 = "e248a72f227eedd6c788ac3836d86d995b5a11e8"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[AlgebraOfGraphics.download]]
-    sha256 = "4ffd4de902f4a40efb5daa9906a845eef6b35e1f8a31a56f5462700df78d620c"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/AlgebraOfGraphics-ubuntu-latest-x64-1.8.tar.gz"
+    sha256 = "d634d25c1d048a47e8231b55d63c3602a895fbc7e7c15a2a56aea8c36e67d48c"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/AlgebraOfGraphics-ubuntu-latest-x64-1.8.tar.gz"
 
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "be837d3f4253d8927c2ad858c27327588b9d4c91"
+git-tree-sha1 = "db13548333845f3ba6bcec154bd1a933f1cf84c7"
 lazy = true
 os = "windows"
 
     [[DataFrames.download]]
-    sha256 = "a3b304513b99a82dfcb481f38ff17221d57f8b37e5abb2dc826ca075b5b4961e"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/DataFrames-windows-latest-x64-1.8.tar.gz"
+    sha256 = "03f5e1e5ae10cc7988739326794b7f120df51e497636a7a7a9298a037a3afe05"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/DataFrames-windows-latest-x64-1.8.tar.gz"
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "0eb788fa4dafd799f0b699dd3de49026f1f06001"
+git-tree-sha1 = "c201f49455ae64cde458406802224f7f9d13b5e8"
 lazy = true
 os = "macos"
 
     [[DataFrames.download]]
-    sha256 = "46ab4b90b712094633c2548549426c18784683047ad78cd09bd2147c85f16f46"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/DataFrames-macOS-latest-x64-1.8.tar.gz"
+    sha256 = "2c215279277b7dc7eaa0de8d93ce194b2c6a000a907afd09addf386feafb3148"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/DataFrames-macOS-latest-x64-1.8.tar.gz"
 [[DataFrames]]
 arch = "x86_64"
-git-tree-sha1 = "75d6675579208909116b296bccf57c46e45019ed"
+git-tree-sha1 = "b4ae2c2c4a14e2f4b4d960a714787c33207efad4"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[DataFrames.download]]
-    sha256 = "bd06a996bcf212740b3347cccb44ddce62155110e878f3fcb34601ab21a66508"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/DataFrames-ubuntu-latest-x64-1.8.tar.gz"
+    sha256 = "ec8ac1fd776368a77ed6d4910563e5f4b2cef94c854cca5b8732bb45f946c4bd"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/DataFrames-ubuntu-latest-x64-1.8.tar.gz"
 
 [[JuliaFormatter]]
 arch = "x86_64"
-git-tree-sha1 = "d6baad35d31609e10eea9fd7ed6ac1147ceafb65"
+git-tree-sha1 = "d059ad9312979192591ec02c1eb8aa7948bca0d6"
 lazy = true
 os = "windows"
 
     [[JuliaFormatter.download]]
-    sha256 = "d11bcea5e4a81710c644286fb7dadd667435513ccc267d7579086cbb75cd3dbb"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaFormatter-windows-latest-x64-1.8.tar.gz"
+    sha256 = "b8f947c28cf05feac999e04fd82f32e7a983d842bfb70342dd409d5d141e6ddd"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaFormatter-windows-latest-x64-1.8.tar.gz"
 [[JuliaFormatter]]
 arch = "x86_64"
-git-tree-sha1 = "1d7b6236fe87ade59449d3bae36b12e552985aa8"
+git-tree-sha1 = "a2c8e18056b6c6a2cb4f3a467e02dd064152346f"
 lazy = true
 os = "macos"
 
     [[JuliaFormatter.download]]
-    sha256 = "da601653db376a07f83511e3b9843c893f03e299ec2351f3d45fc130d5ba3a32"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaFormatter-macOS-latest-x64-1.8.tar.gz"
+    sha256 = "3522df4ec59558c86593b0bac179b2f0bbb2c69bf4c323e347226d0a0bb562f6"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaFormatter-macOS-latest-x64-1.8.tar.gz"
 [[JuliaFormatter]]
 arch = "x86_64"
-git-tree-sha1 = "bb01d02a9aa423cee57c79340de63ff0e90545c5"
+git-tree-sha1 = "b0f516a8abb6df6a1ee538107bb7b118d75b7780"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[JuliaFormatter.download]]
-    sha256 = "42164c62e0433fb61471fcdb68608268536f6f3772c2c0c38dcc72324a34b97b"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaFormatter-ubuntu-latest-x64-1.8.tar.gz"
+    sha256 = "8cd4a48067d935c844205e6b658da5bb293ccd97ef62c93c39bdaf55d1373e32"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaFormatter-ubuntu-latest-x64-1.8.tar.gz"
 
 [[JuliaSyntax]]
 arch = "x86_64"
-git-tree-sha1 = "ea21e531a87eb1a45904ae93f7428934d051f212"
+git-tree-sha1 = "0e7657bcc7439d497cea13f0fcc1d0f1f922e5c3"
 lazy = true
 os = "windows"
 
     [[JuliaSyntax.download]]
-    sha256 = "ed71e3197b8d1e6e4a5557d78927d8dcf8d9d73c9fb1f3c491c04245fa2ed11a"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaSyntax-windows-latest-x64-1.8.tar.gz"
+    sha256 = "cc351ec4c066af7a53db075a08abb1d331c4e67b5f74a659c62904b12aac6524"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaSyntax-windows-latest-x64-1.8.tar.gz"
 [[JuliaSyntax]]
 arch = "x86_64"
-git-tree-sha1 = "0b06fb8da90afd561fca9306ecec6ba7f6d7d949"
+git-tree-sha1 = "7b83bfa090ab4410b860bd7fb76701b570ee82cb"
 lazy = true
 os = "macos"
 
     [[JuliaSyntax.download]]
-    sha256 = "a692daef73cb4638aa967623a2ff495225478c24073cadfbab1b592b0fddadc2"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaSyntax-macOS-latest-x64-1.8.tar.gz"
+    sha256 = "64866f8a296ae4765433e5f450e2a00efabe8ecf1f348dec0d639b056d6a8876"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaSyntax-macOS-latest-x64-1.8.tar.gz"
 [[JuliaSyntax]]
 arch = "x86_64"
-git-tree-sha1 = "e3885b64b251f378cfab8cc69dc863754748919e"
+git-tree-sha1 = "760ff5d1d1eb58a7de55443b9c5073f849343d08"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[JuliaSyntax.download]]
-    sha256 = "221830afbf405abe49c31e5d02e89c3f49562f695f126c10938ee20e2e5a83d1"
-    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.7.0/JuliaSyntax-ubuntu-latest-x64-1.8.tar.gz"
+    sha256 = "010d6bdfcaf533c7557ed7211dd9d7b7634f17708c39b5a9846428485ed2ed19"
+    url = "https://github.com/MichaelHatherly/curated-system-images/releases/download/v0.8.0/JuliaSyntax-ubuntu-latest-x64-1.8.tar.gz"
